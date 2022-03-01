@@ -1,0 +1,91 @@
+a{
+    color: #596D48;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+    margin: 0;
+}
+
+input{
+    border-color: #E5E7EB;
+}
+
+label,input{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-size: larger;
+}
+
+.final-buttons{
+    background-color: whitesmoke;
+    padding: 2rem;
+    padding-right: 4rem;
+    padding-bottom: 10rem;
+}
+
+.form-h2{
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.input-rows{
+    display: flex;
+    padding: 2rem;
+    padding-right: 4rem;
+}
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    width: 35vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.odin-logo{
+    max-height: 8rem;
+}
+
+.right-side-first{
+    background-color:whitesmoke;
+    padding: 2rem;
+    padding-top: 10rem;
+    padding-right: 4rem;
+    width: 57.7vw;
+}
+
+.sidebar-bg{
+    width: 35vw;
+    height: 100%;
+}
+
+.submit-button{
+    background-color: #596D48;
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 900;
+}
