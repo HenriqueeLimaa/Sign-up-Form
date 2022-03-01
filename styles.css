@@ -14,8 +14,25 @@ h1{
     margin: 0;
 }
 
+h2{
+    font-size: 1.8rem;
+}
+
 input{
-    border-color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    width: 15rem;
+    height: 1.5rem;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid darkblue;
+}
+
+input:valid{
+    outline: none;
+    border: 1px solid green;
 }
 
 label,input{
@@ -41,6 +58,7 @@ p{
 
 .input-rows{
     display: flex;
+    flex-wrap: wrap;
     padding: 2rem;
     padding-right: 4rem;
 }
@@ -56,6 +74,7 @@ p{
     justify-content: center;
     align-items: center;
     position: absolute;
+    top: 15rem;
     background-color: black;
     opacity: 0.5;
     width: 35vw;
@@ -67,12 +86,23 @@ p{
     max-height: 8rem;
 }
 
+.one-form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
 .right-side-first{
     background-color:whitesmoke;
     padding: 2rem;
     padding-top: 10rem;
     padding-right: 4rem;
     width: 57.7vw;
+}
+
+.row{
+    display: flex;
+    gap: 8rem;
 }
 
 .sidebar-bg{

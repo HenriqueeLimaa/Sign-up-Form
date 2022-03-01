@@ -26,22 +26,34 @@
             <h2 class="form-h2">Let's do this!</h2>
             <div class="input-rows">
                 <div class="row">
-                    <label for="first-name">FIRST NAME</label>
-                    <input id="first-name" type="text">
-                    <label for="last-name">LAST NAME</label>
-                    <input id="last-name" type="text">
+                    <div class="one-form">
+                        <label for="first-name">*FIRST NAME</label>
+                        <input id="first-name" type="text" required>
+                    </div>
+                    <div class="one-form">
+                        <label for="last-name">*LAST NAME</label>
+                        <input id="last-name" type="text" required>
+                    </div>
                 </div>
                 <div class="row">
-                    <label for="email">EMAIL</label>
-                    <input id="email" type="email">
-                    <label for="phone-num">PHONE NUMBER</label>
-                    <input id="phone-num" type="tel">
+                    <div class="one-form">
+                        <label for="email">*EMAIL</label>
+                        <input id="email" type="email" required>
+                    </div>
+                    <div class="one-form">
+                        <label for="phone-num">*PHONE NUMBER</label>
+                        <input id="phone-num" type="tel" required>
+                    </div>
                 </div>
                 <div class="row">
-                    <label for="password">PASSWORD</label>
-                    <input id="password" type="password">
-                    <label for="conf-password">CONFIRM PASSWORD</label>
-                    <input id="conf-password" type="password">
+                    <div class="one-form">
+                        <label for="password">*PASSWORD</label>
+                        <input id="password" type="password" required>
+                    </div>
+                    <div class="one-form">
+                        <label for="conf-password">*CONFIRM PASSWORD</label>
+                        <input id="conf-password" type="password" required>
+                    </div>
                 </div>
             </div>           
         </form>
